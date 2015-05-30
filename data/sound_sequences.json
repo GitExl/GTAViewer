@@ -1,0 +1,16 @@
+{
+  "BOWLING_ALLEY": {
+    "index": 28,
+    "type": "delay",
+    "sounds": ["bowlingPins"],
+    "delayMin": 2.5,
+    "delayMax": 5.0
+  },
+  "GANG_LOCKED_IN_BUS": {
+    "index": 24,
+    "type": "delay",
+    "sounds": ["gangLocked1", "gangLocked2", "gangLocked3", "gangLocked4"],
+    "delayMin": 1.5,
+    "delayMax": 3.0
+  }
+}

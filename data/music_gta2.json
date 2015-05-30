@@ -1,0 +1,68 @@
+{
+  "Credits": {
+    "file": "A.wav"
+  },
+  "Menu": {
+    "file": "D.wav"
+  },
+  "HeadRadio": {
+    "file": "1.wav"
+  },
+  "RockstarRadio": {
+    "file": "2.wav"
+  },
+  "KREZ": {
+    "file": "3.wav"
+  },
+  "LoFiFM": {
+    "file": "4.wav"
+  },
+  "FuturoFM": {
+    "file": "5.wav"
+  },
+  "FutoroFMAM": {
+    "file": "5a.wav"
+  },
+  "FunamiFM": {
+    "file": "6.wav"
+  },
+  "FnuamiFMAM": {
+    "file": "6a.wav"
+  },
+  "LithiumFM": {
+    "file": "7.wav"
+  },
+  "LithiumFMAM": {
+    "file": "7a.wav"
+  },
+  "King1307FM": {
+    "file": "8.wav"
+  },
+  "King1307FMAM": {
+    "file": "8a.wav"
+  },
+  "OsmosisRadio": {
+    "file": "9.wav"
+  },
+  "OsmosisRadioAM": {
+    "file": "9a.wav"
+  },
+  "HeavenlyRadio": {
+    "file": "10.wav"
+  },
+  "HeavenlyRadioAM": {
+    "file": "10a.wav"
+  },
+  "KGBH": {
+    "file": "11.wav"
+  },
+  "KGBHAM": {
+    "file": "11a.wav"
+  },
+  "Ambient": {
+    "file": "12.wav"
+  },
+  "PoliceRadio": {
+    "file": "101a.wav"
+  }
+}

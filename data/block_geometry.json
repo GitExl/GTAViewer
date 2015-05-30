@@ -1,0 +1,824 @@
+{
+  "solid": {
+    "index": 0,
+    "faces": {
+      "top": {
+        "vertex": [0.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0,
+                   1.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 0.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "left": {
+        "vertex": [0.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   0.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "bottom": {
+        "vertex": [1.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [1.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 0.0, 0.0, 1.0, 1.0,
+                   1.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 1.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "lid": {
+        "vertex": [1.0, 0.0, 1.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      }
+    }
+  },
+
+  "up26_low": {
+    "index": 1,
+    "base": "up45",
+    "transforms": [
+      ["corner offset", 3, -0.5],
+      ["corner offset", 2, -0.5]
+    ]
+  },
+
+  "up26_high": {
+    "index": 2,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 1, -0.5],
+      ["corner offset", 0, -0.5]
+    ]
+  },
+
+  "down26_low": {
+    "index": 3,
+    "base": "up26_low",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down26_high": {
+    "index": 4,
+    "base": "up26_high",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "left26_low": {
+    "index": 5,
+    "base": "up26_low",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left26_high": {
+    "index": 6,
+    "base": "up26_high",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "right26_low": {
+    "index": 7,
+    "base": "up26_low",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right26_high": {
+    "index": 8,
+    "base": "up26_high",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "up7_1": {
+    "index": 9,
+    "base": "up45",
+    "transforms": [
+      ["corner offset", 3, -0.875],
+      ["corner offset", 2, -0.875]
+    ]
+  },
+
+  "up7_2": {
+    "index": 10,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 3, -0.75],
+      ["corner offset", 2, -0.75],
+      ["corner offset", 1, -0.875],
+      ["corner offset", 0, -0.875]
+    ]
+  },
+
+  "up7_3": {
+    "index": 11,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 3, -0.625],
+      ["corner offset", 2, -0.625],
+      ["corner offset", 1, -0.75],
+      ["corner offset", 0, -0.75]
+    ]
+  },
+
+  "up7_4": {
+    "index": 12,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 3, -0.5],
+      ["corner offset", 2, -0.5],
+      ["corner offset", 1, -0.625],
+      ["corner offset", 0, -0.625]
+    ]
+  },
+
+  "up7_5": {
+    "index": 13,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 3, -0.375],
+      ["corner offset", 2, -0.375],
+      ["corner offset", 1, -0.5],
+      ["corner offset", 0, -0.5]
+    ]
+  },
+
+  "up7_6": {
+    "index": 14,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 3, -0.25],
+      ["corner offset", 2, -0.25],
+      ["corner offset", 1, -0.375],
+      ["corner offset", 0, -0.375]
+    ]
+  },
+
+  "up7_7": {
+    "index": 15,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 3, -0.125],
+      ["corner offset", 2, -0.125],
+      ["corner offset", 1, -0.25],
+      ["corner offset", 0, -0.25]
+    ]
+  },
+
+  "up7_8": {
+    "index": 16,
+    "base": "solid",
+    "transforms": [
+      ["corner offset", 1, -0.125],
+      ["corner offset", 0, -0.125]
+    ]
+  },
+
+  "down7_1": {
+    "index": 17,
+    "base": "up7_1",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_2": {
+    "index": 18,
+    "base": "up7_2",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_3": {
+    "index": 19,
+    "base": "up7_3",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_4": {
+    "index": 20,
+    "base": "up7_4",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_5": {
+    "index": 21,
+    "base": "up7_5",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_6": {
+    "index": 22,
+    "base": "up7_6",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_7": {
+    "index": 23,
+    "base": "up7_7",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "down7_8": {
+    "index": 24,
+    "base": "up7_8",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "left7_1": {
+    "index": 25,
+    "base": "up7_1",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_2": {
+    "index": 26,
+    "base": "up7_2",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_3": {
+    "index": 27,
+    "base": "up7_3",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_4": {
+    "index": 28,
+    "base": "up7_4",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_5": {
+    "index": 29,
+    "base": "up7_5",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_6": {
+    "index": 30,
+    "base": "up7_6",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_7": {
+    "index": 31,
+    "base": "up7_7",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "left7_8": {
+    "index": 32,
+    "base": "up7_8",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "right7_1": {
+    "index": 33,
+    "base": "up7_1",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_2": {
+    "index": 34,
+    "base": "up7_2",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_3": {
+    "index": 35,
+    "base": "up7_3",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_4": {
+    "index": 36,
+    "base": "up7_4",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_5": {
+    "index": 37,
+    "base": "up7_5",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_6": {
+    "index": 38,
+    "base": "up7_6",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_7": {
+    "index": 39,
+    "base": "up7_7",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "right7_8": {
+    "index": 40,
+    "base": "up7_8",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "up45": {
+    "index": 41,
+    "faces": {
+      "left": {
+        "vertex": [0.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2]
+      },
+      "top": {
+        "vertex": [0.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0,
+                   1.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 0.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [1.0, 1.0, 0.0, 1.0, 1.0,
+                   1.0, 0.0, 0.0, 0.0, 1.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2]
+      },
+      "lid": {
+        "vertex": [1.0, 0.0, 1.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      }
+    }
+  },
+
+  "down45": {
+    "index": 42,
+    "base": "up45",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "left45": {
+    "index": 43,
+    "base": "up45",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "right45": {
+    "index": 44,
+    "base": "up45",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "diag_topleft": {
+    "index": 45,
+    "noDoubleSide": true,
+    "faces": {
+      "top": {
+        "vertex": [0.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0,
+                   1.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 0.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "bottom": {
+        "vertex": [1.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "left": {
+        "vertex": [0.0, 1.0, 1.0, 1.0, 0.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0,
+                   1.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [1.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 0.0, 0.0, 1.0, 1.0,
+                   1.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 1.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "lid": {
+        "vertex": [1.0, 0.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      }
+    }
+  },
+
+  "diag_topright": {
+    "index": 46,
+    "noDoubleSide": true,
+    "faces": {
+      "top": {
+        "vertex": [0.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0,
+                   1.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 0.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "bottom": {
+        "vertex": [1.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "left": {
+        "vertex": [0.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   0.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [0.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 1.0, 1.0, 0.0, 0.0,
+                   1.0, 1.0, 0.0, 0.0, 1.0,
+                   0.0, 0.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "lid": {
+        "vertex": [0.0, 0.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      }
+    }
+  },
+
+  "diag_bottomleft": {
+    "index": 47,
+    "base": "diag_topright",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "diag_bottomright": {
+    "index": 48,
+    "base": "diag_topleft",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "diag_slope4_topleft": {
+    "index": 49,
+    "noDoubleSide": true,
+    "faces": {
+      "left": {
+        "vertex": [0.0, 1.0, 1.0, 1.0, 0.0,
+                   1.0, 0.0, 1.0, 0.0, 0.0,
+                   0.0, 0.0, 0.0, 0.5, 1.0],
+        "index": [0, 1, 2]
+      },
+      "bottom": {
+        "vertex": [1.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [1.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 0.0, 0.0, 1.0, 1.0,
+                   1.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 1.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "lid": {
+        "vertex": [1.0, 0.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      }
+    }
+  },
+
+  "diag_slope4_topright": {
+    "index": 50,
+    "noDoubleSide": true,
+    "faces": {
+      "left": {
+        "vertex": [0.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   0.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "bottom": {
+        "vertex": [1.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [0.0, 0.0, 1.0, 1.0, 0.0,
+                   1.0, 1.0, 1.0, 0.0, 0.0,
+                   1.0, 0.0, 0.0, 0.5, 1.0],
+        "index": [0, 1, 2]
+      },
+      "lid": {
+        "vertex": [0.0, 0.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 1.0, 0.0, 1.0,
+                   1.0, 1.0, 1.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      }
+    }
+  },
+
+  "diag_slope4_bottomleft": {
+    "index": 51,
+    "base": "diag_slope4_topright",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "diag_slope4_bottomright": {
+    "index": 52,
+    "base": "diag_slope4_topleft",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "part_left": {
+    "index": 53,
+    "faces": {
+      "top": {
+        "vertex": [0.0,   0.0, 1.0, 1.0,   0.0,
+                   0.375, 0.0, 1.0, 0.625, 0.0,
+                   0.375, 0.0, 0.0, 0.625, 1.0,
+                   0.0,   0.0, 0.0, 1.0,   1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "left": {
+        "vertex": [0.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   0.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 0.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "bottom": {
+        "vertex": [0.375, 1.0, 1.0, 0.375, 0.0,
+                   0.0,   1.0, 1.0, 0.0,   0.0,
+                   0.0,   1.0, 0.0, 0.0,   1.0,
+                   0.375, 1.0, 0.0, 0.375, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [0.375, 1.0, 0.0, 0.0, 1.0,
+                   0.375, 0.0, 0.0, 1.0, 1.0,
+                   0.375, 0.0, 1.0, 1.0, 0.0,
+                   0.375, 1.0, 1.0, 0.0, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "lid": {
+        "vertex": [0.375, 0.0, 1.0, 0.375, 0.0,
+                   0.0,   0.0, 1.0, 0.0,   0.0,
+                   0.0,   1.0, 1.0, 0.0,   1.0,
+                   0.375, 1.0, 1.0, 0.375, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      }
+    }
+  },
+
+  "part_right": {
+    "index": 54,
+    "base": "part_left",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "part_top": {
+    "index": 55,
+    "base": "part_left",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "part_bottom": {
+    "index": 56,
+    "base": "part_left",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "part_topleft": {
+    "index": 57,
+    "faces": {
+      "top": {
+        "vertex": [0.0,   0.0, 1.0, 1.0,   0.0,
+                   0.375, 0.0, 1.0, 0.625, 0.0,
+                   0.375, 0.0, 0.0, 0.625, 1.0,
+                   0.0,   0.0, 0.0, 1.0,   1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "left": {
+        "vertex": [0.0, 0.0,   0.0, 0.0,   1.0,
+                   0.0, 0.375, 0.0, 0.375, 1.0,
+                   0.0, 0.375, 1.0, 0.375, 0.0,
+                   0.0, 0.0,   1.0, 0.0,   0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "bottom": {
+        "vertex": [0.375, 0.375, 1.0, 0.375, 0.0,
+                   0.0,   0.375, 1.0, 0.0,   0.0,
+                   0.0,   0.375, 0.0, 0.0,   1.0,
+                   0.375, 0.375, 0.0, 0.375, 1.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "right": {
+        "vertex": [0.375, 0.375, 0.0, 0.625, 1.0,
+                   0.375, 0.0,   0.0, 1.0,   1.0,
+                   0.375, 0.0,   1.0, 1.0,   0.0,
+                   0.375, 0.375, 1.0, 0.625, 0.0],
+        "index": [0, 1, 2, 0, 2, 3]
+      },
+      "lid": {
+        "vertex": [0.375, 0.0,   1.0, 0.375, 0.0,
+                   0.0,   0.0,   1.0, 0.0,   0.0,
+                   0.0,   0.375, 1.0, 0.0,   0.375,
+                   0.375, 0.375, 1.0, 0.375, 0.375],
+        "index": [0, 1, 2, 0, 2, 3]
+      }
+    }
+  },
+
+  "part_topright": {
+    "index": 58,
+    "base": "part_topleft",
+    "transforms": [
+      ["rotate", 90]
+    ]
+  },
+
+  "part_bottomleft": {
+    "index": 59,
+    "base": "part_topleft",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "part_bottomright": {
+    "index": 60,
+    "base": "part_topleft",
+    "transforms": [
+      ["rotate", 270]
+    ]
+  },
+
+  "part_center": {
+    "index": 61,
+    "base": "part_topleft",
+    "transforms": [
+      ["transform", 0.3125, 0.3125]
+    ]
+  },
+
+  "diag_slope3_topleft": {
+    "index": 64,
+    "noDoubleSide": true,
+    "faces": {
+      "left": {
+        "vertex": [1.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   1.0, 1.0, 1.0, 0.5, 0.0],
+        "index": [0, 1, 2]
+      },
+      "bottom": {
+        "vertex": [1.0, 1.0, 1.0, 1.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      },
+      "right": {
+        "vertex": [1.0, 1.0, 1.0, 0.0, 0.0,
+                   1.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 0.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      }
+    }
+  },
+
+  "diag_slope3_topright": {
+    "index": 65,
+    "noDoubleSide": true,
+    "faces": {
+      "left": {
+        "vertex": [0.0, 0.0, 0.0, 0.0, 1.0,
+                   0.0, 1.0, 0.0, 1.0, 1.0,
+                   0.0, 1.0, 1.0, 1.0, 0.0],
+        "index": [0, 1, 2]
+      },
+      "bottom": {
+        "vertex": [0.0, 1.0, 1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0, 0.0, 1.0,
+                   1.0, 1.0, 0.0, 1.0, 1.0],
+        "index": [0, 1, 2]
+      },
+      "right": {
+        "vertex": [0.0, 0.0, 0.0, 1.0, 1.0,
+                   0.0, 1.0, 1.0, 0.5, 0.0,
+                   1.0, 1.0, 0.0, 0.0, 1.0],
+        "index": [0, 1, 2]
+      }
+    }
+  },
+
+  "diag_slope3_bottomleft": {
+    "index": 66,
+    "base": "diag_slope3_topright",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  },
+
+  "diag_slope3_bottomright": {
+    "index": 67,
+    "base": "diag_slope3_topleft",
+    "transforms": [
+      ["rotate", 180]
+    ]
+  }
+}

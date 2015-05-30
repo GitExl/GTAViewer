@@ -1,0 +1,2312 @@
+[
+  {
+    "name": "G1Tire1",
+    "class": "OBSTACLE",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Tire2",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1BinLid",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Bin",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Cone",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Flowers",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Barrier",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Cross",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Bench",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Gravestone",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Smoke1",
+    "class": "DECORATION",
+    "frameCount": 11
+  },
+  {
+    "name": "G1Skid",
+    "class": "DECORATION",
+    "frameCount": 4
+  },
+  {
+    "name": "G1SkidBlood",
+    "class": "DECORATION",
+    "frameCount": 4
+  },
+  {
+    "name": "G1Spark",
+    "class": "DECORATION",
+    "frameCount": 5
+  },
+  {
+    "name": "G1TrainDoors",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Blood",
+    "class": "DECORATION",
+    "frameCount": 6
+  },
+  {
+    "name": "G1Junction1",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G1Junction2",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G1Fire1",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Fire2",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Water",
+    "class": "DECORATION",
+    "frameCount": 7
+  },
+  {
+    "name": "G1SkidDirt1",
+    "class": "DECORATION",
+    "frameCount": 3
+  },
+  {
+    "name": "G1SkidDirt2",
+    "class": "DECORATION",
+    "frameCount": 2
+  },
+  {
+    "name": "G1SkidDirt3",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Barrier3",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Bumper",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Tree1",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Tree2",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Tree3",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown29",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Crane",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Missile",
+    "class": "PROJECTILE",
+    "frameCount": 4
+  },
+  {
+    "name": "G1Turret",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1TankGun",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1TankGunBarrel",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Coffin",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1XCrate",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1MissileCrate",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1TankGunWrecked",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1TankGunBarrelWrecked",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Phone",
+    "class": "DECORATION",
+    "frameCount": 3
+  },
+  {
+    "name": "G1Briefcase",
+    "class": "DECORATION",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Unknown42",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Rubble3",
+    "class": "DECORATION",
+    "frameCount": 7
+  },
+  {
+    "name": "G1Rubble2",
+    "class": "DECORATION",
+    "frameCount": 7
+  },
+  {
+    "name": "G1Rubble1",
+    "class": "DECORATION",
+    "frameCount": 7
+  },
+  {
+    "name": "G1LFire",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1DropoffPoint",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1WaterJet",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1WaterJetEnd",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Firehose",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1BigSmoke",
+    "class": "DECORATION",
+    "frameCount": 12
+  },
+  {
+    "name": "G1Unknown52",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Exhaust",
+    "class": "DECORATION",
+    "frameCount": 11
+  },
+  {
+    "name": "G1Splash",
+    "class": "DECORATION",
+    "frameCount": 12
+  },
+  {
+    "name": "G1FireTruckArm1",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1FireTruckArm2",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1FireTruckArm3",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1FireTruckArm4",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1SwatGun",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1CheckFlag",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown61",
+    "class": "DECORATION",
+    "frameCount": 11
+  },
+  {
+    "name": "G1Unknown62",
+    "class": "DECORATION",
+    "frameCount": 11
+  },
+  {
+    "name": "G1FirstBlood",
+    "class": "DECORATION",
+    "frameCount": 12
+  },
+  {
+    "name": "G1Body",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown65",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown66",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Smoke2",
+    "class": "DECORATION",
+    "frameCount": 11
+  },
+  {
+    "name": "G1Unknown68",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Barrel2",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1TVCamera",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown71",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown72",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown73",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Bullet",
+    "class": "PROJECTILE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Fireball",
+    "class": "PROJECTILE",
+    "frameCount": 11
+  },
+  {
+    "name": "G1GasCan",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1BloodSmear",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1PowerupPistol",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupMachinegun",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupRocketLauncher",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupFlamethrower",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupGasCan",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupQuestionMark",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Crate",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1CrateExploding",
+    "class": "DECORATION",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Beachball",
+    "class": "OBSTACLE",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Bollard",
+    "class": "OBSTACLE",
+    "frameCount": 1
+  },
+  {
+    "name": "G1FlagWaving",
+    "class": "DECORATION",
+    "frameCount": 8
+  },
+  {
+    "name": "G1Rubbish",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "flags": ["NO_SHADOW"]
+  },
+  {
+    "name": "G1Unknown90",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1Unknown91",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1HelicopterBlade",
+    "class": "OBSTACLE",
+    "frameCount": 8
+  },
+  {
+    "name": "G1RubbishExploding",
+    "class": "DECORATION",
+    "frameCount": 13
+  },
+  {
+    "name": "G1Helipad",
+    "class": "DECORATION",
+    "frameCount": 1
+  },
+  {
+    "name": "G1PowerupInfo",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupShield",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupLightning",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupKey",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupHeart",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupExtra",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+  {
+    "name": "G1PowerupCoin",
+    "class": "POWERUP",
+    "frameCount": 8
+  },
+
+
+
+  {
+    "name": "G2Unknown000",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BinLid",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Bollard",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 1124,
+    "flags": ["NO_SHADOW"]
+  },
+  {
+    "name": "G2Cone",
+    "class": "OBSTACLE",
+    "frameCount": 4,
+    "baseFrame": 1131
+  },
+  {
+    "name": "G2Boxes",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Blaster",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Rubbish",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Bin",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2AnimatingOil",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Oil",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Mine",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Bush",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Crate",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Footy",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HardBox",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2NewsDispenser",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2OilDrum",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Tyre",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HydrantLid",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Hydrant",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HydrantUnlid",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2RoadBlock",
+    "class": "OBSTACLE",
+    "frameCount": 8,
+    "baseFrame": 1179
+  },
+  {
+    "name": "G2Bench",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Package",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown024",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Tower",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2Unknown026",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown027",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown028",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown029",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown030",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown031",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown032",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown033",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown034",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown035",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown036",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown037",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown038",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown039",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown040",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown041",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2ExplodeMedium",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown043",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown044",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown045",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown046",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown047",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown048",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown049",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown050",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown051",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown052",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown053",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown054",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown055",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown056",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown057",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown058",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown059",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown060",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown061",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown062",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown063",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MovingCollect00",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 569
+  },
+  {
+    "name": "G2MovingCollect01",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 577
+  },
+  {
+    "name": "G2MovingCollect02",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 585
+  },
+  {
+    "name": "G2MovingCollect03",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 593
+  },
+  {
+    "name": "G2MovingCollect04",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 601
+  },
+  {
+    "name": "G2MovingCollect05",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 609
+  },
+  {
+    "name": "G2MovingCollect06",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 617
+  },
+  {
+    "name": "G2MovingCollect07",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 625
+  },
+  {
+    "name": "G2MovingCollect08",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 633
+  },
+  {
+    "name": "G2MovingCollect09",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 641
+  },
+  {
+    "name": "G2MovingCollect10",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 649
+  },
+  {
+    "name": "G2MovingCollect11",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 657
+  },
+  {
+    "name": "G2MovingCollect12",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 658
+  },
+  {
+    "name": "G2MovingCollect13",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 659
+  },
+  {
+    "name": "G2MovingCollect14",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 660
+  },
+  {
+    "name": "G2MovingCollect15",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 661
+  },
+  {
+    "name": "G2MovingCollect16",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 669
+  },
+  {
+    "name": "G2MovingCollect17",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 677
+  },
+  {
+    "name": "G2MovingCollect18",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 685
+  },
+  {
+    "name": "G2MovingCollect19",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 693
+  },
+  {
+    "name": "G2MovingCollect20",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 640
+  },
+  {
+    "name": "G2MovingCollect21",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 641
+  },
+  {
+    "name": "G2MovingCollect22",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 642
+  },
+  {
+    "name": "G2MovingCollect23",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 643
+  },
+  {
+    "name": "G2MovingCollect24",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 644
+  },
+  {
+    "name": "G2MovingCollect25",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 645
+  },
+  {
+    "name": "G2MovingCollect26",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 646
+  },
+  {
+    "name": "G2MovingCollect27",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 647
+  },
+  {
+    "name": "G2MovingCollect28",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 702
+  },
+  {
+    "name": "G2MovingCollect29",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 710
+  },
+  {
+    "name": "G2MovingCollect30",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 718
+  },
+  {
+    "name": "G2MovingCollect31",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 726
+  },
+  {
+    "name": "G2MovingCollect32",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 734
+  },
+  {
+    "name": "G2MovingCollect33",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 742
+  },
+  {
+    "name": "G2MovingCollect34",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 750
+  },
+  {
+    "name": "G2MovingCollect35",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 758
+  },
+  {
+    "name": "G2MovingCollect36",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 766
+  },
+  {
+    "name": "G2MovingCollect37",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 774
+  },
+  {
+    "name": "G2MovingCollect38",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 782
+  },
+  {
+    "name": "G2MovingCollect39",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 790
+  },
+  {
+    "name": "G2MovingCollect40",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 798
+  },
+  {
+    "name": "GMovingCollect41",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 806
+  },
+  {
+    "name": "G2MovingCollect42",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 807
+  },
+  {
+    "name": "G2MovingCollect43",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 808
+  },
+  {
+    "name": "G2MovingCollect44",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 809
+  },
+  {
+    "name": "G2SmallArrow",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown110",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BloodSpark",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown112",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2ParticleSystem",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2FireJet",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown115",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2SmallBrownSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2SmallGreySkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2SmallRedSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MediumBrownSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MediumGreySkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MediumRedSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2CarCrossing",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2CarStop",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BigWhiteSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MediumWhiteSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2SmallWhiteSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown127",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Rocket",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BusStopMarker",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2CarShop",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2BusyCarShop",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2CarBomb",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown133",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown134",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown135",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown136",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown137",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MolotovMoving",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown139",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown140",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown141",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown142",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown143",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HugeRedSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HugeWhiteSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HugeBrownSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2HugeGreySkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2TankTop",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Antenna",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown150",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2AnimatingRubbish",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2DeadRubbish",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown153",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown154",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MovingCone",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown156",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MovingBin",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2MovingBinLid",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown159",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown160",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown161",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown162",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Phone",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 1061
+  },
+  {
+    "name": "G2PhoneRinging",
+    "class": "DECORATION",
+    "frameCount": 2,
+    "baseFrame": 1062
+  },
+  {
+    "name": "G2Unknown165",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown166",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown167",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown168",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown169",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown170",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown171",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown172",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown173",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2PhoneDead",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 1061
+  },
+  {
+    "name": "G2Briefcase",
+    "class": "POWERUP",
+    "frameCount": 5,
+    "baseFrame": 561
+  },
+  {
+    "name": "G2RedPhone",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 1061
+  },
+  {
+    "name": "G2RedPhoneRinging",
+    "class": "DECORATION",
+    "frameCount": 2,
+    "baseFrame": 1062
+  },
+  {
+    "name": "G2YellowPhone",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 1061
+  },
+  {
+    "name": "G2YellowPhoneRinging",
+    "class": "OBSTACLE",
+    "frameCount": 2,
+    "baseFrame": 1062
+  },
+  {
+    "name": "G2GreenPhone",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 1061
+  },
+  {
+    "name": "G2GreenPhoneRinging",
+    "class": "OBSTACLE",
+    "frameCount": 2,
+    "baseFrame": 1062
+  },
+  {
+    "name": "G2Grenade",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown183",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown184",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown185",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown186",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown187",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown188",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown189",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown190",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown191",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Shot",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown193",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2FlamingBullet",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown195",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown196",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Fire",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2WaterBullet",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown199",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Collect00",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 569
+  },
+  {
+    "name": "G2Collect01",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 577
+  },
+  {
+    "name": "G2Collect02",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 585
+  },
+  {
+    "name": "G2Collect03",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 593
+  },
+  {
+    "name": "G2Collect04",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 601
+  },
+  {
+    "name": "G2Collect05",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 609
+  },
+  {
+    "name": "G2Collect06",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 617
+  },
+  {
+    "name": "G2Collect07",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 625
+  },
+  {
+    "name": "G2Collect08",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 633
+  },
+  {
+    "name": "G2Collect09",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 641
+  },
+  {
+    "name": "G2Collect10",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 649
+  },
+  {
+    "name": "G2Collect11",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 657
+  },
+  {
+    "name": "G2Collect12",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 658
+  },
+  {
+    "name": "G2Collect13",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 659
+  },
+  {
+    "name": "G2Collect14",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 660
+  },
+  {
+    "name": "G2Collect15",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 661
+  },
+  {
+    "name": "G2Collect16",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 669
+  },
+  {
+    "name": "G2Collect17",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 677
+  },
+  {
+    "name": "G2Collect18",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 685
+  },
+  {
+    "name": "G2Collect19",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 693
+  },
+  {
+    "name": "G2Collect20",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 640
+  },
+  {
+    "name": "G2Collect21",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 641
+  },
+  {
+    "name": "G2Collect22",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 642
+  },
+  {
+    "name": "G2Collect23",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 643
+  },
+  {
+    "name": "G2Collect24",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 644
+  },
+  {
+    "name": "G2Collect25",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 645
+  },
+  {
+    "name": "G2Collect26",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 646
+  },
+  {
+    "name": "G2Collect27",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 647
+  },
+  {
+    "name": "G2Collect28",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 702
+  },
+  {
+    "name": "G2Collect29",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 710
+  },
+  {
+    "name": "G2Collect30",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 718
+  },
+  {
+    "name": "G2Collect31",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 726
+  },
+  {
+    "name": "G2Collect32",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 734
+  },
+  {
+    "name": "G2Collect33",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 742
+  },
+  {
+    "name": "G2Collect34",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 750
+  },
+  {
+    "name": "G2Collect35",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 758
+  },
+  {
+    "name": "G2Collect36",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 766
+  },
+  {
+    "name": "G2Collect37",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 774
+  },
+  {
+    "name": "G2Collect38",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 782
+  },
+  {
+    "name": "G2Collect39",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 790
+  },
+  {
+    "name": "G2Collect40",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 798
+  },
+  {
+    "name": "G2Collect41",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 806
+  },
+  {
+    "name": "G2Collect42",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 807
+  },
+  {
+    "name": "G2Collect43",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 808
+  },
+  {
+    "name": "G2Collect44",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 809
+  },
+  {
+    "name": "G2Unknown245",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown256",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Bomb",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown248",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BigBrownSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BigGreySkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown251",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown252",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BigRedSkid",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Bullet",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2TrafficLight",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2RedFootprints",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Blood",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Crossing",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Spark",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown260",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown261",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown262",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown263",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown264",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2PistolBullet",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2BonusToken",
+    "class": "POWERUP",
+    "frameCount": 1,
+    "baseFrame": 560,
+    "flags": ["NO_SHADOW"]
+  },
+  {
+    "name": "G2Unknown267",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown268",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown269",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown270",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown271",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown272",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown273",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown274",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown275",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown276",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2TaserBullet",
+    "class": "PROJECTILE",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown277",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2SoundInstant",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2InvisibleTarget",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2PowerGen",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2PowerGenDead",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2InvisibleDestructible",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2GenLite",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2InvisibleDead",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2KillFrenzy",
+    "class": "POWERUP",
+    "frameCount": 8,
+    "baseFrame": 837
+  },
+  {
+    "name": "G2Unknown287",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown288",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown289",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown290",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown291",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown292",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2Unknown293",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+  {
+    "name": "G2TunnelBlocker",
+    "class": "OBSTACLE",
+    "frameCount": 1,
+    "baseFrame": 0,
+    "flags": ["INVISIBLE"]
+  },
+  {
+    "name": "G2Remote",
+    "class": "DECORATION",
+    "frameCount": 1,
+    "baseFrame": 0
+  },
+
+
+  {
+    "name": "ScriptSound",
+    "class": "DECORATION",
+    "flags": ["INVISIBLE"]
+  }
+]

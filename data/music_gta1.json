@@ -1,0 +1,32 @@
+{
+  "Radio01": {
+    "file": "track1.wav"
+  },
+  "Radio02": {
+    "file": "track2.wav"
+  },
+  "Radio03": {
+    "file": "track3.wav"
+  },
+  "Radio04": {
+    "file": "track4.wav"
+  },
+  "Radio05": {
+    "file": "track5.wav"
+  },
+  "Radio06": {
+    "file": "track6.wav"
+  },
+  "Radio07": {
+    "file": "track7.wav"
+  },
+  "Radio08": {
+    "file": "track8.wav"
+  },
+  "Ambient": {
+    "file": "track9.wav"
+  },
+  "PoliceRadio": {
+    "file": "track10.wav"
+  }
+}
