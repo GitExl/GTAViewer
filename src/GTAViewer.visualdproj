@@ -14,7 +14,7 @@
   <verbose>0</verbose>
   <vtls>0</vtls>
   <vgc>0</vgc>
-  <symdebug>2</symdebug>
+  <symdebug>1</symdebug>
   <optimize>0</optimize>
   <cpu>0</cpu>
   <isX86_64>0</isX86_64>
@@ -25,7 +25,7 @@
   <isSolaris>0</isSolaris>
   <scheduler>0</scheduler>
   <useDeprecated>0</useDeprecated>
-  <errDeprecated>0</errDeprecated>
+  <errDeprecated>1</errDeprecated>
   <useAssert>0</useAssert>
   <useInvariants>0</useInvariants>
   <useIn>0</useIn>
@@ -53,7 +53,7 @@
   <cccmd>$(CC) -c</cccmd>
   <ccTransOpt>1</ccTransOpt>
   <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
-  <imppath>c:\derelict\source</imppath>
+  <imppath>C:\Derelict\DerelictUtil\source C:\Derelict\DerelictSDL2\source C:\Derelict\DerelictGL3\source C:\Derelict\DerelictAL\source</imppath>
   <fileImppath />
   <outdir>..\</outdir>
   <objdir>$(ConfigurationName)</objdir>
@@ -89,13 +89,14 @@
   <cv2pdbOptions />
   <objfiles />
   <linkswitches />
-  <libfiles>C:\Derelict\lib\DerelictUtil.lib C:\Derelict\lib\DerelictSDL2.lib C:\Derelict\lib\DerelictGL3.lib C:\Derelict\lib\DerelictAL.lib</libfiles>
+  <libfiles>C:\Derelict\DerelictUtil\lib\DerelictUtil.lib C:\Derelict\DerelictSDL2\lib\DerelictSDL2.lib C:\Derelict\DerelictGL3\lib\DerelictGL3.lib C:\Derelict\DerelictAL\lib\DerelictAL.lib</libfiles>
   <libpaths />
   <deffile />
   <resfile />
   <exefile>$(OutDir)\$(ProjectName)_debug.exe</exefile>
   <useStdLibPath>1</useStdLibPath>
   <cRuntime>2</cRuntime>
+  <privatePhobos>0</privatePhobos>
   <additionalOptions />
   <preBuildCommand />
   <postBuildCommand />
@@ -126,7 +127,7 @@
   <isSolaris>0</isSolaris>
   <scheduler>0</scheduler>
   <useDeprecated>0</useDeprecated>
-  <errDeprecated>0</errDeprecated>
+  <errDeprecated>1</errDeprecated>
   <useAssert>0</useAssert>
   <useInvariants>0</useInvariants>
   <useIn>0</useIn>
@@ -154,7 +155,7 @@
   <cccmd>$(CC) -c</cccmd>
   <ccTransOpt>1</ccTransOpt>
   <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
-  <imppath>c:\derelict\source</imppath>
+  <imppath>C:\Derelict\DerelictUtil\source C:\Derelict\DerelictSDL2\source C:\Derelict\DerelictGL3\source C:\Derelict\DerelictAL\source</imppath>
   <fileImppath />
   <outdir>..\</outdir>
   <objdir>$(ConfigurationName)</objdir>
@@ -175,7 +176,7 @@
   <versionlevel>0</versionlevel>
   <versionids />
   <dump_source>0</dump_source>
-  <mapverbosity>0</mapverbosity>
+  <mapverbosity>4</mapverbosity>
   <createImplib>0</createImplib>
   <defaultlibname />
   <debuglibname />
@@ -190,13 +191,14 @@
   <cv2pdbOptions />
   <objfiles />
   <linkswitches />
-  <libfiles>C:\Derelict\lib\DerelictUtil.lib C:\Derelict\lib\DerelictSDL2.lib C:\Derelict\lib\DerelictGL3.lib C:\Derelict\lib\DerelictAL.lib</libfiles>
+  <libfiles>C:\Derelict\DerelictUtil\lib\DerelictUtil.lib C:\Derelict\DerelictSDL2\lib\DerelictSDL2.lib C:\Derelict\DerelictGL3\lib\DerelictGL3.lib C:\Derelict\DerelictAL\lib\DerelictAL.lib</libfiles>
   <libpaths />
   <deffile />
   <resfile />
   <exefile>$(OutDir)\$(ProjectName).exe</exefile>
   <useStdLibPath>1</useStdLibPath>
   <cRuntime>1</cRuntime>
+  <privatePhobos>0</privatePhobos>
   <additionalOptions />
   <preBuildCommand />
   <postBuildCommand />
@@ -216,7 +218,7 @@
   <verbose>0</verbose>
   <vtls>0</vtls>
   <vgc>0</vgc>
-  <symdebug>2</symdebug>
+  <symdebug>1</symdebug>
   <optimize>0</optimize>
   <cpu>0</cpu>
   <isX86_64>0</isX86_64>
@@ -227,7 +229,7 @@
   <isSolaris>0</isSolaris>
   <scheduler>0</scheduler>
   <useDeprecated>0</useDeprecated>
-  <errDeprecated>0</errDeprecated>
+  <errDeprecated>1</errDeprecated>
   <useAssert>0</useAssert>
   <useInvariants>0</useInvariants>
   <useIn>0</useIn>
@@ -237,7 +239,7 @@
   <useSwitchError>0</useSwitchError>
   <useUnitTests>0</useUnitTests>
   <useInline>0</useInline>
-  <release>0</release>
+  <release>1</release>
   <preservePaths>0</preservePaths>
   <warnings>1</warnings>
   <infowarnings>1</infowarnings>
@@ -255,7 +257,7 @@
   <cccmd>$(CC) -c</cccmd>
   <ccTransOpt>1</ccTransOpt>
   <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
-  <imppath>c:\derelict\source</imppath>
+  <imppath>C:\Derelict\DerelictUtil\source C:\Derelict\DerelictSDL2\source C:\Derelict\DerelictGL3\source C:\Derelict\DerelictAL\source</imppath>
   <fileImppath />
   <outdir>..\</outdir>
   <objdir>$(ConfigurationName)</objdir>
@@ -291,13 +293,14 @@
   <cv2pdbOptions />
   <objfiles />
   <linkswitches />
-  <libfiles>C:\Derelict\lib\DerelictUtil.lib C:\Derelict\lib\DerelictSDL2.lib C:\Derelict\lib\DerelictGL3.lib C:\Derelict\lib\DerelictAL.lib</libfiles>
+  <libfiles>C:\Derelict\DerelictUtil\lib\DerelictUtil.lib C:\Derelict\DerelictSDL2\lib\DerelictSDL2.lib C:\Derelict\DerelictGL3\lib\DerelictGL3.lib C:\Derelict\DerelictAL\lib\DerelictAL.lib</libfiles>
   <libpaths />
   <deffile />
   <resfile />
   <exefile>$(OutDir)\$(ProjectName)_profile.exe</exefile>
   <useStdLibPath>1</useStdLibPath>
   <cRuntime>2</cRuntime>
+  <privatePhobos>0</privatePhobos>
   <additionalOptions />
   <preBuildCommand />
   <postBuildCommand />

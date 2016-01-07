@@ -222,3 +222,4 @@ info
 *.dll
 *.exe
 releases
+*_cv

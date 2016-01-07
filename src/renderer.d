@@ -64,6 +64,9 @@ public final class Renderer {
         SDL_GL_SetAttribute(SDL_GL_MULTISAMPLEBUFFERS, CVars.get("r_aasamples").intVal > 0 ? 1 : 0);
         SDL_GL_SetAttribute(SDL_GL_MULTISAMPLESAMPLES, cast(uint)CVars.get("r_aasamples").intVal);
 
+        SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
+        SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
+
         // Create window.
         uint flags = SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL | SDL_WINDOW_ALLOW_HIGHDPI;
 
