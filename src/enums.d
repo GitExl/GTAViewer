@@ -27,7 +27,7 @@
 
 module render.enums;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 
 public enum BufferUsage : GLenum {

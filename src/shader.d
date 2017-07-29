@@ -33,7 +33,7 @@ import std.string;
 import std.path;
 import std.conv;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import util.log;
 

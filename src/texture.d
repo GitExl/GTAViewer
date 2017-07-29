@@ -29,7 +29,7 @@ module render.texture;
 
 import std.stdio;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import render.enums;
 
@@ -105,7 +105,7 @@ public final class Texture {
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, _wrapMode);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, _wrapMode);
         
-        glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAX_ANISOTROPY_EXT, _anisotropy);
+        //glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAX_ANISOTROPY_EXT, _anisotropy);
     }
 
     private void update(ubyte[] data) {

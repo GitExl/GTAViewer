@@ -30,7 +30,7 @@ module render.texturearray;
 import std.stdio;
 import std.string;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import render.enums;
 
@@ -150,7 +150,8 @@ public final class TextureArray {
         glTexParameteri(GL_TEXTURE_2D_ARRAY, GL_TEXTURE_WRAP_S, _wrapMode);
         glTexParameteri(GL_TEXTURE_2D_ARRAY, GL_TEXTURE_WRAP_T, _wrapMode);
         
-        glTexParameterf(GL_TEXTURE_2D_ARRAY, GL_TEXTURE_MAX_ANISOTROPY_EXT, _anisotropy);
+        // TODO: Does Derelict support this? Do we need to use this exntension in some other way?
+        //glTexParameterf(GL_TEXTURE_2D_ARRAY, GL_TEXTURE_MAX_ANISOTROPY_EXT, _anisotropy);
     }
 
     public void replaceTexture(const uint index, const ubyte[] data) {

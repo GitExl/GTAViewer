@@ -33,7 +33,7 @@ import std.file;
 import std.string;
 import std.math;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import game.map.block;
 

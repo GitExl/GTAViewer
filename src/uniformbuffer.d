@@ -29,7 +29,7 @@ module render.uniformbuffer;
 
 import std.stdio;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 
 public final class UniformBuffer(T) {

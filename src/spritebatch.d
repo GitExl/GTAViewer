@@ -31,7 +31,7 @@ import std.stdio;
 import std.algorithm;
 import std.math;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import render.texture;
 import render.enums;

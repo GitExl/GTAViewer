@@ -217,7 +217,7 @@ public final class Style {
                 switch (key) {
                     case "name":
                         if (val.str in _entityTypes) {
-                            throw new Exception(("Duplicate entity type name '%s'.", val.str));
+                            throw new Exception(format("Duplicate entity type name '%s'.", val.str));
                         }
                         entityType.name = val.str;
                         break;

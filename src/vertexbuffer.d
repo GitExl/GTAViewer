@@ -27,7 +27,7 @@
 
 module render.vertexbuffer;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import render.indexbuffer;
 import render.enums;

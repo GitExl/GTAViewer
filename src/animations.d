@@ -30,7 +30,7 @@ module game.animations;
 import std.stdio;
 import std.string;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import game.style.style;
 

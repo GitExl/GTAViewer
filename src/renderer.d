@@ -31,7 +31,7 @@ import std.stdio;
 import std.string;
 
 import derelict.sdl2.sdl;
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import util.console;
 import util.log;
@@ -68,7 +68,7 @@ public final class Renderer {
         SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
 
         // Create window.
-        uint flags = SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL | SDL_WINDOW_ALLOW_HIGHDPI;
+        SDL_WindowFlags flags = SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL | SDL_WINDOW_ALLOW_HIGHDPI;
 
         // Fullscreen.
         if (_cvarFullscreen.intVal == 1) {

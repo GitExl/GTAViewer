@@ -31,7 +31,7 @@ import std.stdio;
 import std.string;
 import std.algorithm;
 
-import derelict.opengl3.gl3;
+import derelict.opengl;
 
 import game.style.style;
 
